@@ -20,6 +20,10 @@ abstract class connection
 
 	/*
 		deklarasi koneksi
+		$_servername = nama server database
+		$_username = username database
+		$_password = password database
+		$_database = nama database yang akan digunakan
 	*/
 	function __construct()
 	{
